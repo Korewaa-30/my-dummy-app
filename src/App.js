@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React from "react";
 
 import "./App.css";
 
@@ -63,15 +62,17 @@ export default function App() {
 						<span className="temp-today">30</span>
 						<span className="units">
 							<a
-								href="#"
+								href="/"
 								id="celsius-link"
+								rel="noreferrer"
 							>
 								°C
 							</a>
 							<span className="unit-separator">|</span>
 							<a
-								href="#"
+								href="/"
 								id="fahrenheit-link"
+								rel="noreferrer"
 							>
 								°F
 							</a>
