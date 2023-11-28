@@ -12,6 +12,7 @@ root.render(
 			<a
 				href="https://github.com/Korewaa-30/my-app"
 				target="_blank"
+				rel="noreferrer"
 			>
 				Open-source code,
 			</a>
